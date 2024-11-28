@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Need to move these global style sets to their own files */
+
+.c-button {
+  @apply bg-custom_blue font-display text-white text-12 py-3 px-5 tracking-wide transition-colors duration-200 ease-in;
+
+  &:hover {
+    @apply bg-custom_black text-white;
+  }
+}
